@@ -112,7 +112,10 @@ Answer the following questions, baseline ~3-5 sentences each, as if they were in
 - In the Northwind database, what is the type of relationship between the `Employee` and `Territory` tables?
 - What is a situation where a document store (like MongoDB) is appropriate, and what is a situation where it is not appropriate?
 - What is "NewSQL", and what is it trying to achieve?
-
+ 
+1. It is a one-to-many relationship, one employee can have more than one territory assigned.
+2. MongoDB is good for BIG data, and is not good for relational data. Mongo DB does not care about the data structure.
+3. NewSQL is trying to find the middle ground between the benefits of NoSQL and SQL.
 ### Part 5 - Turn it in!
 Provide all the files you wrote (`demo_data.py`, `northwind.py`, `demo_data.sqlite3`), as well as this file with your answers to part 4, directly to your TL. You're also encouraged to include the output from your queries as docstring comments, to facilitate grading and feedback. Thanks for your hard work!
 
